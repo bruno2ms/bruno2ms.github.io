@@ -5,6 +5,7 @@ layout: talk
 comments: true
 published: true
 location: "Bluesoft"
+author: Bruno Mendes
 original: http://labs.bluesoft.com.br/papo-reto-newton-produtividade/
 ---
 
@@ -12,11 +13,11 @@ Acompanhe a apresentação
 
 ---------------------------------------
 
-{% include talks/youtube.html title=page.title code='L0GVP1YwYE' %}
+{% include commons/youtube.html title=page.title code='L0GVP1YwYE' %}
 
 ---------------------------------------
 
-{% include talks/slideshare.html title=page.title code='43804144' %}
+{% include commons/slideshare.html title=page.title code='43804144' %}
 
 ---------------------------------------
 

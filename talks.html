@@ -1,0 +1,24 @@
+---
+title: Talks
+layout: page
+published: true
+permalink: /talks/
+---
+
+<p>Aqui você poderá encontrar algumas das apresentações que fiz:</p>
+
+<ul class="post-list">
+	{% for node in site.pages %}
+		{% if node.title != null %}
+			{% if node.layout == "talk" %}
+			  <li>
+			    <span class="post-meta">{{ node.date | date: "%b %-d, %Y" }}</span>
+
+			    <h2>
+			      <a class="post-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+			    </h2>
+			  </li>
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+</ul>

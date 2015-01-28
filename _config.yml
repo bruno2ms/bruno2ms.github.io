@@ -1,14 +1,46 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Bruno Mendes
+tagline: 'Reading, Learning, Sharing.'
+email: br2msi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Front End Developer, design enthusiast, married, happy.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://brunoms.com" # the base hostname & protocol for your site
 
-# Build settings
-markdown: kramdown
+avatar_url: https://s.gravatar.com/avatar/f61868d473da6c5b8fb3dc939449bd73?s=120
+twitter_username: bruno2ms
+github_username:  bruno2ms
+disqus_short_name: brunoms
+
+social:
+  github: https://github.com/bruno2ms
+  gplus: https://plus.google.com/+bruno2ms
+  linkedin: http://www.linkedin.com/in/bruno2ms
+
+
+# google_analytics_tracking_id: UA-54841653-1
+
+
+# Build settings / Dependencies
+markdown: kramdown 
+highlighter: true
+safe: true
+lsi: false
+
+# Permalinks
+permalink: pretty
+
+
+exclude: [
+  .git,
+  .gitignore,
+  .DS_Store,
+  CNAME,
+  svg,
+  .sass-cache,
+  package.json,
+  Gruntfile.js,
+  node_modules,
+  README.md,
+  LICENSE.md
+]

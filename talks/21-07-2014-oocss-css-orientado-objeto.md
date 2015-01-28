@@ -5,6 +5,7 @@ layout: talk
 comments: true
 published: true
 location: "Bluesoft"
+author: Bruno Mendes
 original: http://labs.bluesoft.com.br/css-orientado-objetos-por-bruno-mendes/
 ---
 
@@ -12,11 +13,11 @@ Acompanhe a apresentação
 
 ---------------------------------------
 
-{% include talks/vimeo.html title=page.title code='101120503' %}
+{% include commons/vimeo.html title=page.title code='101120503' %}
 
 ---------------------------------------
 
-{% include talks/slideshare.html title=page.title code='37194720' %}
+{% include commons/slideshare.html title=page.title code='37194720' %}
 
 ---------------------------------------
 

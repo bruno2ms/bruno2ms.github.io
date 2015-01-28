@@ -5,6 +5,7 @@ layout: talk
 comments: true
 published: true
 location: "Bluesoft"
+author: Bruno Mendes
 original: http://labs.bluesoft.com.br/papo-reto-pomodoro-technique-pro-bruno-mendes/
 ---
 
@@ -12,11 +13,11 @@ Acompanhe a apresentação
 
 ---------------------------------------
 
-{% include talks/vimeo.html title=page.title code='108132550' %}
+{% include commons/vimeo.html title=page.title code='108132550' %}
 
 ---------------------------------------
 
-{% include talks/slideshare.html title=page.title code='43804560' %}
+{% include commons/slideshare.html title=page.title code='43804560' %}
 
 ---------------------------------------
 

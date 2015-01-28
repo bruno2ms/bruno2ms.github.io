@@ -98,4 +98,7 @@ DEPENDENCIES
   jekyll
   jekyll-press
   jekyll-sitemap
+  listen
+  posix-spawn
+  redcarpet
   therubyracer

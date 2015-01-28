@@ -5,6 +5,7 @@ layout: talk
 comments: true
 published: true
 location: "Bluesoft"
+author: Bruno Mendes
 original: http://labs.bluesoft.com.br/papo-reto-pense-como-dono-por-bruno-mendes/
 ---
 
@@ -12,11 +13,11 @@ Acompanhe a apresentação
 
 ---------------------------------------
 
-{% include talks/vimeo.html title=page.title code='107701171' %}
+{% include commons/vimeo.html title=page.title code='107701171' %}
 
 ---------------------------------------
 
-{% include talks/slideshare.html title=page.title code='39584806' %}
+{% include commons/slideshare.html title=page.title code='39584806' %}
 
 ---------------------------------------
 
